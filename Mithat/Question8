@@ -1,0 +1,6 @@
+'''word=input('enter a word')
+for i in word:
+    reverse=word[::-1]
+print(reverse)'''
+
+print(input("word: ")[::-1])

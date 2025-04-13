@@ -1,0 +1,19 @@
+'''- Question 10: Write the code that calculates the person's weight index and returns the result 
+as underweight, overweight or overweight according to the index value. (You can look on the internet for 
+the weight index calculation)
+To do this, ask the user for their weight and height measurements. weight index
+If it is below 25, it is weak,
+Between 25-30 is normal,
+If you are over 30-40, you are overweight.
+If you are over 40, you are overweight. '''
+
+mass=float(input("enter your kilogram "))
+height=float(input('enter your height in cm '))
+weightIndex=mass/(height/100)**2
+if weightIndex<25:
+    print('you are weak')
+elif weightIndex<=25<=30:
+    print('you are normal')
+elif weightIndex<=30<=40:
+        print('you are overweight')
+else :  print('you are obese')

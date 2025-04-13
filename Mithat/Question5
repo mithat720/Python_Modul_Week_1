@@ -1,7 +1,7 @@
-'''- Question 5: Write a Python program that takes a positive integer input from the user and calculates its factorial. Factorial is the product of all positive integers 
-between a number itself and 1. For example: if the user entered 5, the program should give the following output:
- Enter a number from the user: 5
- Factorial: 120  '''
+#Question 5: Write a Python program that takes a positive integer input from the user and calculates its factorial. Factorial is the product of all positive integers between a number itself and 1.
+#For example: if the user entered 5, the program should give the following output:
+#Enter a number from the user: 5
+#Factorial: 120
 
 n=input("enter a positive number ")
 while not n.isdigit() or int(n)<1:

@@ -10,4 +10,3 @@ numbers=""
 for i in range(int(n1),int(n2)+1):
     numbers=numbers+" "+str(i)
 print("Numbers between",n1, "and",n2,numbers)
-

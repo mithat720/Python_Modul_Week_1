@@ -1,3 +1,4 @@
+#Question 2: Take a number input from the user and write a Python program that prints even numbers up to this number on the screen. Do this first with 'for' and then with 'while' loops.
 n=input("enter a number ")
 while not n.isdigit():
     n=input("Please enter a valid number ")

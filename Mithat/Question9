@@ -1,3 +1,4 @@
+ #Question 9: How to create a combination of loop and conditional statement that takes a word input from the user and checks whether that word is a palindrome (the same when read backwards)?
 word=input('enter a word ')
 for i in word:
     reverse=word[::-1]

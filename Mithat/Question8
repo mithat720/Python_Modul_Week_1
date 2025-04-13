@@ -1,6 +1,3 @@
-'''word=input('enter a word')
-for i in word:
-    reverse=word[::-1]
-print(reverse)'''
+ #Question 8: Write a Python code that takes a word from the user and prints the reverse of this word on the screen.
 
-print(input("word: ")[::-1])
+print(input("word: ")[::-1])    

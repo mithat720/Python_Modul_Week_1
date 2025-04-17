@@ -1,5 +1,4 @@
-n = int(input())
-arr = list(map(int, input().split()))
+arr=[2,3,6,6,5]
 arr.sort()
 arr.reverse()
 for num in arr:

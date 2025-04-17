@@ -1,11 +1,24 @@
-#Question 6: Write a Python code that receives a number from the user and checks whether this number is prime.
-n=input("Enter a valid integer number")
-j=0
-if int(n)==1: print("entered number is not a prime number")
+
+#Question 6: Write a Python code that receives a number from the user and checks whether this number is prime. 
+
+n=input("Enter a valid integer number ") 
+
+if int(n)==1: print("entered number is not a prime number") 
+
 else:
-    for i in range(2,10):
-        if int(n)% int(i) ==0:
-            j+=1
-    if j>2 : print("entered number is not a prime number")
-    elif j==2 : print("entered number is a prime number")
-    else: print("entered number is a prime number")
+    if 2<=int(n)<=10:
+        j=0
+        for i in range(1,10):
+            if int(n)% int(i) ==0:
+                j=j+1
+
+        if j==2 : print("entered number is a prime number")
+        else:  print("entered number is NOT a prime number")
+    else:
+        j=2
+        for i in range(1, 10):
+            if int(n) % int(i) == 0:
+                j = j + 1
+
+        if j == 2: print("entered number is a prime number")
+        else:  print("entered number is NOT a prime number")

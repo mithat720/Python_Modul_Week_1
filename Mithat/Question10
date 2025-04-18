@@ -1,0 +1,11 @@
+
+mass=float(input("enter your kilogram "))
+height=float(input('enter your height in cm '))
+weightIndex=mass/(height/100)**2
+if weightIndex<25:
+    print('you are weak')
+elif weightIndex<=25<=30:
+    print('you are normal')
+elif weightIndex<=30<=40:
+        print('you are overweight')
+else :  print('you are obese')

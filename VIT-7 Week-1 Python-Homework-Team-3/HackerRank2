@@ -1,0 +1,9 @@
+arr=[2,3,6,6,5]
+arr.sort()
+arr.reverse()
+for num in arr:
+    if num < arr[0]:
+        print(num)
+        break
+
+    

@@ -5,5 +5,5 @@ for _ in range(k):
         scores = list(map(float, line))
         student_marks[name] = scores
 query_name = input()
-Average=sum(student_marks[query_name])/k
+Average=sum(student_marks[query_name])/3
 print(f"{Average:.2f}")

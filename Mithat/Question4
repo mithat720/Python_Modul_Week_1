@@ -1,7 +1,0 @@
-#Question 4: Get a number from the user and write a Python code that prints whether this number is odd or even
-n=input("enter a number ")
-while not n.isdigit():
-    n=input("Please enter a valid number ")
-if int(n)%2==0:
-    print("Entered number",n,"is an even number")
-else: print("Entered number",n,"is an odd number")
